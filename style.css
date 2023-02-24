@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* scroll bar */
+
+/* Move the scrollbar to the left side */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Style the scrollbar track */
+::-webkit-scrollbar-track {
+    background-color: #2567cb;
+  }
+  
+  /* Style the scrollbar thumb */
+::-webkit-scrollbar-thumb {
+    background:linear-gradient(transparent,#00ff22);
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(transparent,#00c8ff);
+  }
+
+  
+  
+
+/*   navbar */
+
+
+.navbar-brand img{
+    height: 5rem;
+    width: 100%;
+    border-radius: 1rem;
+    box-shadow: 2px 1px 2px 1px;
+}
+
+.navbar{
+    background: #000;
+    box-shadow: 0px 20px 50px #fffa;
+}
+
+.header{
+    background: url("images/top banner.jpg");
+    background-position: center;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+   
+}
+.nav-link{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 2px;
+    transition: 0.5s ease all;
+}
+.nav-link:hover{
+    color: aqua;
+}
+
+.btn-info{
+    transition: 0.5s ease all;
+    color: #fff;
+}
+.btn-info:hover{
+    background: #fff;
+    color: aqua;
+}
+.header::before{
+    content: '';
+    height: 100vh;
+    width: 100%;
+    background-color: #000;
+    position: absolute;
+    opacity: 0.5;
+
+}
+.top-banner{
+    position: absolute;
+    top: 40%;
+    font-weight: 500;
+    color: #fff;
+    left: 30%;
+    right: 30%
+}
+
+.text{
+    display: flex;
+    text-align: center;
+    font-weight: 500;
+    justify-content: center;
+    color: #fff;
+}  
+.icon-bar{
+    color: #fff;
+    font-size: 2rem;
+}
+
+
+
+/* sec-1 */
+
+
+.bg-grey{
+    background-color: #16db93;
+}
+.circle-icon{
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    background-color: #0a8eac;
+}
+
+
+/* slider */
+
+#slider {
+    position: relative;
+    width: 100%;
+    height: 25rem;
+    overflow: hidden;
+  }
+  
+  #slider img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+
+  
+  #slider img.active {
+    opacity: 2;
+  }
+  
+  /* -----gallary------- */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background: #333;
+  }
+  
+  .thumbnails img {
+    width: 9.3rem;
+    height: 6.2rem;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  .main-image {
+    margin: 1.3rem;
+  }
+  
+  #mainImage {
+    width: 40rem;
+    height: 27rem;
+  }
+  
+  /* =========contact section========= */
+
+  #contact {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
+  #contact h2 {
+    margin-bottom: 30px;
+  }
+  
+  #contact form label {
+    font-weight: bold;
+  }
+  
+  #contact form input,
+  #contact form textarea {
+    margin-bottom: 20px;
+  }
+  
+  #contact form textarea {
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    margin-top: 20px;
+  }
+  
+
+
+  footer {
+    background-color: #f8f9fa;
+    padding: 30px 0;
+  }
+  
+  footer ul li {
+    display: inline-block;
+    margin-right: 15px;
+  }
+  
+  footer ul li a i {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  footer p {
+    margin-top: 20px;
+  }
+  footer{
+    background: #000;
+    color: #fff;
+  }  
+
+  .fab{
+    color: #fff;
+  }
